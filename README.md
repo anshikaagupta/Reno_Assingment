@@ -13,19 +13,11 @@ A simple and responsive school management system built with **Next.js 14** and *
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 14, React 18, TypeScript
+- **Frontend**: Next.js 14
 - **Styling**: Tailwind CSS
 - **Database**: MySQL
 - **Form Handling**: React Hook Form
 - **Image Upload**: Built-in file handling
-
-## 📋 Prerequisites
-
-Before running this project, make sure you have:
-
-1. **Node.js** (version 18 or higher)
-2. **MySQL** server running locally or remotely
-3. **Git** for version control
 
 ## 🚀 Quick Start
 
@@ -177,14 +169,6 @@ Fetch all schools from the database.
 - Loading states and error handling
 - Beautiful card design with school information
 
-## 🎨 Styling
-
-The project uses **Tailwind CSS** for styling with custom CSS classes for specific components. The design is:
-
-- **Responsive**: Adapts to different screen sizes
-- **Modern**: Clean and professional appearance
-- **Accessible**: Proper contrast and readable fonts
-- **Interactive**: Hover effects and smooth transitions
 
 ## 🔒 Validation Rules
 
@@ -196,60 +180,6 @@ The project uses **Tailwind CSS** for styling with custom CSS classes for specif
 - **Email**: Required, valid email format
 - **Image**: Required, image file format
 
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Set environment variables in Vercel dashboard
-4. Deploy!
-
-### Deploy to Netlify
-
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Set environment variables
-4. Deploy!
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Error**:
-   - Check if MySQL server is running
-   - Verify database credentials in `.env.local`
-   - Ensure database and table exist
-
-2. **Image Upload Issues**:
-   - Check if `public/schoolImages` folder exists
-   - Verify file permissions
-   - Ensure image file is valid
-
-3. **Build Errors**:
-   - Clear `.next` folder: `rm -rf .next`
-   - Reinstall dependencies: `npm install`
-   - Check TypeScript errors
-
-## 📝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Support
-
-If you encounter any issues or have questions:
-
-1. Check the troubleshooting section
-2. Review the code and documentation
-3. Create an issue on GitHub
 
 ## 🎯 Assignment Requirements Met
 
